@@ -1,0 +1,32 @@
+/* 
+    Document   : style
+    Created on : 05/05/2013, 02:03:07 PM
+    Author     : johel
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.contenedor {
+    margin:0px 10px 0px 10px;
+    padding-top:40px;
+    min-height: 300px;
+}
+
+@media (max-width: 979px) {
+    .contenedor{
+        margin:-10px 0px 0px 0px;
+        min-height: 0px;
+        padding-top:0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .bienvenida{
+        background:blue;
+        display: none;
+    }
+}
